@@ -120,9 +120,6 @@ The server is available by this url: http://13.59.27.59/
 	3. Update _/etc/apache2/sites-enabled/000-default.conf_
 		```
 		<VirtualHost *:80>
-			ServerAdmin webmaster@localhost
-			DocumentRoot /var/www/catalog
-			
 			WSGIScriptAlias / /var/www/item-catalog-app/server.wsgi
 
 			<directory /var/www/item-catalog-app/>
